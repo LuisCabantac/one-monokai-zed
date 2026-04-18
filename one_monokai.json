@@ -38,7 +38,7 @@
         "error.background": "#21252b",
         "error.border": "#181a1f",
         "ghost_element.background": "#292d35",
-        "ghost_element.hover": "#21252b",
+        "ghost_element.hover": "#292d35",
         "ghost_element.selected": "#2c313a",
         "ghost_element.disabled": "#495162",
         "hidden": "#495162",
@@ -57,8 +57,8 @@
         "players": [
           {
             "background": "#d7dae0",
-            "cursor": "#d7dae0",
-            "selection": "#d7dae01a"
+            "cursor": "#f8f8f0",
+            "selection": "#3e4451"
           },
           {
             "background": "#ff6188",
@@ -113,12 +113,12 @@
           },
           "comment": {
             "color": "#676f7d",
-            "font_style": "italic",
+            "font_style": null,
             "font_weight": null
           },
           "comment.doc": {
             "color": "#676f7d",
-            "font_style": "italic",
+            "font_style": null,
             "font_weight": null
           },
           "constant": {
@@ -224,6 +224,11 @@
           "variable.special": {
             "color": "#e06c75",
             "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#d19a66",
+            "font_style": "italic",
             "font_weight": null
           }
         },
